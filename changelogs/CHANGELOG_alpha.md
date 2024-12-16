@@ -1,3 +1,10 @@
+# [7.4.0-alpha.7](https://github.com/parse-community/parse-server/compare/7.4.0-alpha.6...7.4.0-alpha.7) (2024-12-16)
+
+
+### Features
+
+* Upgrade @parse/push-adapter from 6.7.1 to 6.8.0 ([#9489](https://github.com/parse-community/parse-server/issues/9489)) ([286aa66](https://github.com/parse-community/parse-server/commit/286aa664ac8830d36c3e70d2316917d15f0b6df5))
+
 # [7.4.0-alpha.6](https://github.com/parse-community/parse-server/compare/7.4.0-alpha.5...7.4.0-alpha.6) (2024-11-19)
 
 
