@@ -44,7 +44,7 @@ export class AuthAdapter {
    * @param {Object} options additional adapter options
    * @returns {Promise<ParseAuthResponse|void|undefined>}
    */
-  validateAuthData(authData, request, options) {
+  validateAuthData(authData, options, request) {
     return Promise.resolve({});
   }
 
@@ -56,7 +56,7 @@ export class AuthAdapter {
    * @param {Object} options additional adapter options
    * @returns {Promise<ParseAuthResponse|void|undefined>}
    */
-  validateSetUp(authData, req, options) {
+  validateSetUp(authData, options, request) {
     return Promise.resolve({});
   }
 
@@ -68,7 +68,7 @@ export class AuthAdapter {
    * @param {Object} options additional adapter options
    * @returns {Promise<ParseAuthResponse|void|undefined>}
    */
-  validateLogin(authData, req, options) {
+  validateLogin(authData, options, request) {
     return Promise.resolve({});
   }
 
@@ -80,7 +80,7 @@ export class AuthAdapter {
    * @param {Parse.Cloud.TriggerRequest} request
    * @returns {Promise<ParseAuthResponse|void|undefined>}
    */
-  validateUpdate(authData, req, options) {
+  validateUpdate(authData, options, request) {
     return Promise.resolve({});
   }
 
